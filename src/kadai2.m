@@ -5,7 +5,7 @@
 
 clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
 
-ORG=imread('Lenna.png'); % Œ´‰æ‘œ‚Ì“ü—Í
+ORG=imread('./image/freeza.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\Ž¦
 pause; % ˆêŽž’âŽ~
@@ -22,4 +22,13 @@ IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-% ‚WŠK’²‚É‚Â‚¢‚Ä‚ÍCŠeŽ©ŒŸ“¢‚µ‚Ä‚­‚¾‚³‚¢D
+% ‚WŠK’²‰æ‘œ‚Ì¶¬
+IMG3 = ORG>32;
+IMG4 = ORG>64;
+IMG5 = ORG>96;
+IMG6 = ORG>128;
+IMG7 = ORG>160;
+IMG8 = ORG>192;
+IMG9 = ORG>224;
+IMG = IMG3 + IMG4 + IMG5 + IMG6 + IMG7 + IMG8 + IMG9;
+imagesc(IMG); colormap(gray); colorbar;  axis image;
