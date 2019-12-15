@@ -2,7 +2,7 @@
 
 標準画像「freeza」を原画像とする．この画像は縦450画像，横800画素によるディジタルカラー画像である．
 
-ORG=imread('Lenna.png'); % 原画像の入力  
+ORG=imread('freeza.jpg'); % 原画像の入力  
 ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換  
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示  
 によって，原画像を読み込み，白黒濃淡化にした結果を図１に示す．
