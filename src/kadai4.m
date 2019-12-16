@@ -1,16 +1,16 @@
-% ‰Û‘è‚S@‰æ‘œ‚ÌƒqƒXƒgƒOƒ‰ƒ€
-% ‰æ‘f‚Ì”Z“xƒqƒXƒgƒOƒ‰ƒ€‚ð¶¬‚¹‚æD
-% ‰º‹L‚ÍƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚ ‚éD
-% ‰Û‘èì¬‚É‚ ‚½‚Á‚Ä‚ÍuLennavˆÈŠO‚Ì‰æ‘œ‚ð—p‚¢‚æD
+% ï¿½Û‘ï¿½Sï¿½@ï¿½æ‘œï¿½Ìƒqï¿½Xï¿½gï¿½Oï¿½ï¿½ï¿½ï¿½
+% ï¿½ï¿½fï¿½Ì”Zï¿½xï¿½qï¿½Xï¿½gï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ð¶ï¿½ï¿½ï¿½ï¿½ï¿½D
+% ï¿½ï¿½ï¿½Lï¿½ÍƒTï¿½ï¿½ï¿½vï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½D
+% ï¿½Û‘ï¿½ì¬ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ÍuLennaï¿½vï¿½ÈŠOï¿½Ì‰æ‘œï¿½ï¿½pï¿½ï¿½ï¿½ï¿½D
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
+clear; % ï¿½Ïï¿½ï¿½ÌƒIï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½A
 
-ORG=imread('Lenna.png'); % Œ´‰æ‘œ‚Ì“ü—Í
-ORG=rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ð”’•”Z’W‰æ‘œ‚Ö•ÏŠ·
+ORG=imread('freeza.jpg'); % ï¿½ï¿½ï¿½æ‘œï¿½Ì“ï¿½ï¿½
+ORG=rgb2gray(ORG); % ï¿½Jï¿½ï¿½ï¿½[ï¿½æ‘œï¿½ð”’ï¿½ï¿½Zï¿½Wï¿½æ‘œï¿½Ö•ÏŠï¿½
 imagesc(ORG); colormap(gray); colorbar;
 pause;
 
-imhist(ORG); % ƒqƒXƒgƒOƒ‰ƒ€‚Ì•\Ž¦
+imhist(ORG); % ï¿½qï¿½Xï¿½gï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ì•\ï¿½ï¿½
 
 
 
