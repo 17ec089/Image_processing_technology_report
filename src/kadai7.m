@@ -17,5 +17,5 @@ mx = max(ORG(:)); % 濃度値の最大値を算出
 ORG = (ORG-mn)/(mx-mn)*255;             
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 pause;
-ORG = uint8(ORG); % この行について考察せよ
+%ORG = uint8(ORG); % この行について考察せよ
 imhist(ORG); % 濃度ヒストグラムを生成、表示
